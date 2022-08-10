@@ -1,6 +1,6 @@
 region = "us-east-2"
 environment = "Development"
-vpc_cidr = "10.0.0.0/16"
+vpc_cidr = "10.0.0.0/16" #this is a large network, with a possiblity 65,536 possible IP addresses that instances can connect with.
 public_subnet_1_cidr  = "10.0.1.0/24"
 public_subnet_2_cidr  = "10.0.2.0/24"
 public_subnet_3_cidr  = "10.0.3.0/24"
